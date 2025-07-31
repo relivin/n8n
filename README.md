@@ -61,6 +61,16 @@ Additional information about the license model can be found in the [docs](https:
 
 Found a bug 🐛 or have a feature idea ✨? Check our [Contributing Guide](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) to get started.
 
+## Example: Create a Chupacabra POV video
+
+This repository now contains a simple FFmpeg script to help you create a three‑minute Chupacabra video in first‑person GoPro style.
+
+1. Place your raw GoPro footage at `assets/gopro.mp4`.
+2. Add a transparent image of the Chupacabra as `assets/chupacabra.png`.
+3. Run `node scripts/createChupacabraPovVideo.mjs`.
+
+The script overlays the provided Chupacabra image while cropping the top portion so the face stays hidden. The resulting file `chupacabra_pov.mp4` will be exactly three minutes long.
+
 ## Join the Team
 
 Want to shape the future of automation? Check out our [job posts](https://n8n.io/careers) and join our team!
